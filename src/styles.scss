@@ -1,1 +1,14 @@
+$fa-font-path : '../node_modules/font-awesome/fonts/';
+$simple-line-font-path: '../node_modules/simple-line-icons/fonts/';
+
 @import '../node_modules/bootstrap/scss/bootstrap';
+@import '../node_modules/hamburgers/_sass/hamburgers/hamburgers';
+@import '../node_modules/font-awesome/scss/font-awesome';
+@import '../node_modules/simple-line-icons/scss/simple-line-icons';
+
+@import 'assets/scss/vendor/dzsparallaxer/dzsparallaxer';
+@import 'assets/scss/vendor/dzsparallaxer/dzsscroller/scroller';
+@import 'assets/scss/vendor/dzsparallaxer/advancedscroller/plugin';
+
+//@import 'assets/scss/lawyer/_styles-lawyer';
+@import 'assets/scss/corporate/_styles-corporate';

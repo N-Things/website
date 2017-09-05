@@ -19,12 +19,15 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
-        "styles.scss"
+        "styles.scss",
+        "assets/vendor/icon-line-pro/style.css"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.min.js"
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "assets/scss/vendor/dzsparallaxer/dzsparallaxer.js",
+        "assets/scss/vendor/dzsparallaxer/dzsscroller/scroller.js",
+        "assets/scss/vendor/dzsparallaxer/advancedscroller/plugin.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
