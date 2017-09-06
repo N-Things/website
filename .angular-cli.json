@@ -20,14 +20,16 @@
       "prefix": "app",
       "styles": [
         "styles.scss",
-        "assets/vendor/icon-line-pro/style.css"
+        "assets/vendor/icon-line-pro/style.css",
+        "assets/vendor/cubeportfolio/css/cubeportfolio.min.css"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",
         "../node_modules/bootstrap/dist/js/bootstrap.min.js",
         "assets/scss/vendor/dzsparallaxer/dzsparallaxer.js",
         "assets/scss/vendor/dzsparallaxer/dzsscroller/scroller.js",
-        "assets/scss/vendor/dzsparallaxer/advancedscroller/plugin.js"
+        "assets/scss/vendor/dzsparallaxer/advancedscroller/plugin.js",
+        "assets/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
