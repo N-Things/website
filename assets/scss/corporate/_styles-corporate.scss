@@ -1,0 +1,123 @@
+//
+// Variables and Mixins
+//
+@import "_variables-corporate";
+@import "../unify/_styles-unify";
+
+/*------------------------------------
+  Headings
+------------------------------------*/
+.h1, .h2, .h3, .h4, .h5, .h6, .h7,
+h1, h2, h3, h4, h5, h6 {
+  color: $g-color-main;
+}
+
+/* Typography */
+p {
+  color: $g-color-text;
+}
+
+/*------------------------------------
+  Colors
+------------------------------------*/
+.g-color-text {
+  color: $g-color-text;
+}
+
+/*------------------------------------
+  Background Colors
+------------------------------------*/
+.g-bg-main--hover:hover {
+  background-color: $g-bg-main !important;
+}
+
+.g-bg-secondary {
+  background-color: $g-bg-secondary !important;
+}
+
+/*------------------------------------
+  Border Colors
+------------------------------------*/
+.g-brd-text {
+  border-color: $g-color-text !important;
+}
+
+.g-brd-secondary-light-v1 {
+  border-color: $g-color-secondary-light-v1 !important;
+}
+
+.g-brd-secondary-light-v2 {
+  border-color: $g-color-secondary-light-v2 !important;
+}
+
+/*------------------------------------
+  Header
+------------------------------------*/
+.u-header__section {
+  & .navbar-nav:not([class*="u-main-nav-v"]) .open > .nav-link,
+  & .navbar-nav:not([class*="u-main-nav-v"]) .active > .nav-link,
+  & .navbar-nav:not([class*="u-main-nav-v"]) .nav-link.open,
+  & .navbar-nav:not([class*="u-main-nav-v"]) .nav-link.active,
+  &--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .open > .nav-link,
+  &--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .active > .nav-link,
+  &--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link.open,
+  &--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link.active {
+    color: $g-color-primary;
+  }
+}
+
+/* Main navigation */
+.navbar-nav {
+  .nav-item .nav-link {
+    color: $g-bg-secondary;
+  }
+
+  .nav-item .nav-link:hover,
+  .nav-item.active .nav-link {
+    color: $g-color-primary;
+  }
+}
+
+.gridtile {
+  background: rgba(0, 0, 0, 0) url("assets/img/patterns/gridtile.png") repeat scroll 0 0;
+  //background: rgba(20, 20, 20, 0.50) none repeat scroll 0 0;
+  content: " ";
+  height: 100%;
+  left: 0;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/*
+.banner2 {
+  background: rgba(20, 20, 20, 0.50) none repeat scroll 0 0;
+  content: " ";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}*/
+
+.banner {
+  height: 115%; 
+  background-image: url(assets/img/header-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  color: #ebebeb;
+  position: relative;
+  text-align: center;
+}
+
+
+/*------------------------------------
+  Carousel indicators v31
+------------------------------------*/
+
+.u-carousel-indicators-v31 {
+  span {
+    background-color: $g-color-secondary-light-v1;
+  }
+}
